@@ -14,4 +14,6 @@ RUN ["go", "install", "--tags", "extended"]
 
 EXPOSE 1313/tcp
 
+WORKDIR /blog
+
 CMD ["/bin/bash", "-i"]
