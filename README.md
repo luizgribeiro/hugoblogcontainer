@@ -5,7 +5,7 @@ This is a containered version of [hugo](https://gohugo.io/), a website/blogging 
 In order to have it working locally, run:
 
 ```bash
-docker container run -it --rm luizgribeiro/hugoblog:1.0.0
+docker container run -it --rm luizgribeiro/hugoblog:1.0.1
 ```
 
 This command will provide you a Bash interpreter inside a container with hugo pre-installed.
